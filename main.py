@@ -7,9 +7,11 @@ def odd_numbers(n):
 
 
 def prime_numbers(n):
-    # implementation
+    # pass
+
+    
 def fibonacci_sequence(n):
-    #implement it
+    # pass
 
 def print_menu():
     print("1. Odd numbers")
@@ -26,10 +28,10 @@ def main():
         odd_numbers(maxNum)
     elif function == 2:
         even_numbers(maxNum)
-    elif function == 4:
-        prime_numbers(maxNum)
     elif function == 3:
-        fibonacci_sequence(maxNum)
+        pass
+    elif function == 4:
+        pass
     else:
         print("Invalid choice")
 
