@@ -1,4 +1,5 @@
 def even_numbers(n):
+    # implement even_numbers
 
 
 def odd_numbers(n):
@@ -15,6 +16,8 @@ def main():
     print_menu()
     function = int(input("Your choice: "))
     maxNum = int(input("Enter max number: "))
+    if function == 1:
+        even_numbers(maxNum)
     else:
         print("Invalid choice")
 
