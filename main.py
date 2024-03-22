@@ -15,14 +15,6 @@ def main():
     print_menu()
     function = int(input("Your choice: "))
     maxNum = int(input("Enter max number: "))
-    if function == 1:
-        pass
-    if function == 2:
-        pass
-    if function == 3:
-        pass
-    if function == 4:
-        pass
     else:
         print("Invalid choice")
 
