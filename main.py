@@ -12,6 +12,11 @@ def fibonacci_sequence(n):
     pass
 
 
+
+def prime_numbers(n):
+    pass
+
+
 def print_menu():
     print("1. Odd numbers")
     print("2. Even numbers")
@@ -29,6 +34,8 @@ def main():
         even_numbers(maxNum)
     elif function == 3:
         fibonacci_sequence(maxNum)
+    elif function == 4:
+        prime_numbers(maxNum)
     else:
         print("Invalid choice")
 
