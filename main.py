@@ -7,7 +7,7 @@ def odd_numbers(n):
 
 
 def prime_numbers(n):
-    # pass
+    # implementation
 
     
 def fibonacci_sequence(n):
@@ -29,7 +29,7 @@ def main():
     elif function == 2:
         even_numbers(maxNum)
     elif function == 3:
-        pass
+        prime_numbers(maxNum)
     elif function == 4:
         fibonacci_sequence(maxNum)
     else:
