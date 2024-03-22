@@ -11,7 +11,7 @@ def prime_numbers(n):
 
     
 def fibonacci_sequence(n):
-    # pass
+    # implement
 
 def print_menu():
     print("1. Odd numbers")
@@ -31,7 +31,7 @@ def main():
     elif function == 3:
         pass
     elif function == 4:
-        pass
+        fibonacci_sequence(maxNum)
     else:
         print("Invalid choice")
 
