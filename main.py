@@ -5,6 +5,10 @@ def even_numbers(n):
 def odd_numbers(n):
     #implement
 
+
+def fibonacci_sequence(n):
+    #implement it
+
 def print_menu():
     print("1. Odd numbers")
     print("2. Even numbers")
@@ -20,6 +24,8 @@ def main():
         odd_numbers(maxNum)
     elif function == 2:
         even_numbers(maxNum)
+    elif function == 3:
+        fibonacci_sequence(maxNum)
     else:
         print("Invalid choice")
 
